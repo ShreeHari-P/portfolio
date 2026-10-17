@@ -2,6 +2,8 @@ import React from "react";
 import { motion } from "framer-motion";
 import { FaDownload } from "react-icons/fa";
 import { HERO_CONTENT } from "../constants";
+import profileImg from "../assets/profile.jpg";
+import resumePdf from "../assets/resume.pdf";
 
 const containerVariants = {
   hidden: { opacity: 0, x: -100 },
@@ -41,7 +43,7 @@ const Hero = () => {
             >
               <div className="absolute -inset-1 bg-gradient-to-r from-stone-600 to-stone-400 rounded-[2rem] blur opacity-25 group-hover:opacity-40 transition duration-700"></div>
               <img
-                src="/assets/profile.jpg"
+                src={profileImg}
                 alt="Shree Hari P"
                 className="relative border border-stone-800 rounded-3xl object-cover shadow-2xl max-w-[320px] sm:max-w-[400px] lg:max-w-[460px] w-full aspect-[3/4] object-top"
                 width={460}
@@ -83,11 +85,11 @@ const Hero = () => {
 
             <motion.div variants={childVariants} className="flex flex-wrap items-center gap-4 mb-10">
               <a
-                href="/assets/resume.pdf"
+                href={resumePdf}
                 target="_blank"
                 rel="noopener noreferrer"
                 download="Shree_Hari_P_Resume.pdf"
-                className="bg-white rounded-full px-6 py-4 text-sm font-semibold text-stone-900 hover:bg-stone-200 hover:scale-105 active:scale-95 transition-all shadow-lg flex items-center gap-2"
+                className="bg-white rounded-full px-6 py-4 text-sm font-semibold text-stone-900 hover:bg-stone-200 hover:scale-105 active:scale-95 transition-all shadow-lg flex items-center gap-2 cursor-pointer"
               >
                 <FaDownload className="text-sm" />
                 Download Resume
