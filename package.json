@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://shreehari159.github.io/shreehari-portfolio/",
+  "homepage": "https://shreehari-p.github.io/portfolio/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

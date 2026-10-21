@@ -28,7 +28,7 @@ export const PROJECTS = [
     description:
       "Built an AI-powered recruitment assistant for automated resume parsing and candidate management. Automated structured candidate information extraction and real-time synchronization with Google Sheets using Python. Integrated Generative AI concepts for intelligent resume processing workflows and smart candidate ranking.",
     technologies: ["Python", "Generative AI", "NLP", "Google Sheets API", "Regex"],
-    github: "https://github.com/Shreehari159",
+    github: "https://github.com/ShreeHari-P",
     live: "#",
   },
   {
@@ -37,7 +37,7 @@ export const PROJECTS = [
     description:
       "Developed a machine learning application to classify spam and legitimate messages. Performed comprehensive preprocessing, feature engineering, and model training using Python and Scikit-learn. Deepened practical understanding of real-world AI pipelines, TF-IDF vectorization, and predictive analytics.",
     technologies: ["Python", "Machine Learning", "Scikit-Learn", "TF-IDF", "NLP"],
-    github: "https://github.com/Shreehari159",
+    github: "https://github.com/ShreeHari-P",
     live: "#",
   },
   {
@@ -46,7 +46,7 @@ export const PROJECTS = [
     description:
       "Designed and developed a full-stack web application for seamless book discovery and online purchases. Implemented user-friendly, responsive interfaces and database-driven transaction functionalities. Integrated an interactive chatbot-based assistant to provide smart book recommendations and guide customers.",
     technologies: ["Full Stack", "JavaScript", "SQL Database", "REST APIs", "AI Chatbot"],
-    github: "https://github.com/Shreehari159",
+    github: "https://github.com/ShreeHari-P",
     live: "#",
   },
 ];
@@ -98,5 +98,5 @@ export const CONTACT = {
   phoneNo: "+91 9361207820",
   email: "shreehariparthiban@gmail.com",
   linkedin: "https://www.linkedin.com/in/",
-  github: "https://github.com/Shreehari159",
+  github: "https://github.com/ShreeHari-P",
 };
